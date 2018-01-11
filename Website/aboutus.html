@@ -1,0 +1,184 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>About Us</title>
+
+<style type="text/css">
+<!--
+body {
+	font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
+	background-color: #e8e8e8;
+	margin: 0;
+	padding: 0;
+	color: #000;
+}
+ul, ol, dl { 
+	padding-left: 100px;
+	margin: 0;
+}
+h1, h2, h3, h4, h5, h6, p {
+	margin-top: 0;
+	padding-right: 15px;
+	padding-left: 15px;
+	font-color: #FFA500
+}
+a img { 
+	border: none;
+}
+
+a:link {
+	color: #444;
+	
+}
+a:visited {
+	color: #444;
+	text-decoration: underline;
+}
+a:hover, a:active, a:focus { /* this group of selectors will give a keyboard navigator the same hover experience as the person using a mouse. */
+	text-decoration: none;
+}
+
+/* ~~ this fixed width container surrounds all other elements ~~ */
+.container {
+	width: auto;
+	background-color: #FFF;
+	margin: 0 auto; /* the auto value on the sides, coupled with the width, centers the layout */
+}
+
+/* ~~ This is the layout information. ~~ 
+
+1) Padding is only placed on the top and/or bottom of the div. The elements within this div have padding on their sides. This saves you from any "box model math". Keep in mind, if you add any side padding or border to the div itself, it will be added to the width you define to create the *total* width. You may also choose to remove the padding on the element in the div and place a second div within it with no width and the padding necessary for your design.
+
+*/
+.content {
+
+	padding: 10px 0;
+}
+
+/* ~~ miscellaneous float/clear classes ~~ */
+.fltrt {  /* this class can be used to float an element right in your page. The floated element must precede the element it should be next to on the page. */
+	float: right;
+	margin-left: 8px;
+}
+.fltlft { /* this class can be used to float an element left in your page. The floated element must precede the element it should be next to on the page. */
+	float: left;
+	margin-right: 8px;
+}
+.clearfloat { /* this class can be placed on a <br /> or empty div as the final element following the last floated div (within the #container) if the overflow:hidden on the .container is removed */
+	clear:both;
+	height:0;
+	font-size: 1px;
+	line-height: 0px;
+}
+#navbar {
+  overflow: hidden;
+  background-color: #aaaaaa;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: #444;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#navbar a:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+#navbar a.active {
+  background-color: #FFA500;
+  color: white;
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+</style>
+</head>
+
+<body>
+
+<center><font size="7" face="verdana" color="#FFA500">T</font><font size="7" color="#4CAF50">orne</font><font size="7" color="#FFA500">ll</font><font size="7" color="#4CAF50">o</font></center>
+  
+<div id="navbar">
+	<a href="index.html">Home</a>
+  	<a class="active" href="aboutus.html">About Us</a>
+  	<a href="services.html">Services</a>
+  	<a href="testimonials.html">Testimonials</a>
+	<a href="signup.html">Sign Up</a>
+</div>
+<br>
+<br>
+
+
+<center><h3>Jeden Spieltag</h3>
+<img src="images/aboutusedit1.jpg" alt="Drehkruez" align="center" style="width:447px;height:299px;padding-bottom:20px;" >
+<p>Wir sind der Hersteller eines hochspezialisierten und gesch&#252;tzten Informationssystem an Drehkreuzen/Eingangssperren. 
+</p>
+<p>Tornello ist mit seiner Informationstechnologie am n&#228;chsten beim Vebrauchererlebnis,
+an Lieblingspl&#228;tzen und Orten wo unvergessliches stattfindet, direkt mit einem "Touch" . Es gibt im Stadion eine ganz Neue  und  Einzigartige  Werbeplattform mit der Sponsoren und Werbende, an die Fans eine positive Nachricht vermitteln k&#246;nnen.
+</p>
+<p>Wir focusieren uns auf die Ansprache unterer Teilnehmer in diesen Marktsegmenten:
+</p>
+<p>
+Stadien
+<br>
+Mehrzweckhallen
+<br>
+Arenen
+<br>
+Rennstrecken</p></center>
+<br>
+
+<center><h3>EINS - ZU - EINS</h3>
+<p><strong>Partnern sie mit Markus Hardt, um die ultumative Information unseres Produktes zu erhalten.
+</strong></p>
+<p>
+Mit &#252;ber 50 Jahren an professioneller Erfahrung in weltweiter Veranstaltungsplannung,Organization und Marketing sind wir in der Lage Ihnen mit unserem neuen Produkt zu helfen.
+</p>
+<p>
+Die Technologie von Turnello&#169; verwandelt jedes einfache Drehkreuz in eine starke Werbeplattform.
+</p>
+<p>
+Mit Tornello's Techologie, wird die einzigartige M&#246;glichkeit gegeben, jeden Zuschauer garantiert, mit einer positiven Information oder Image zu ber&#252;hren. 
+</p>
+<p>
+Durch eine komplette Dienstleistung m&#246;chten wir Ihr Vertrauen gewinnen und Ihr Partner werden.
+</p>
+<img src="images/aboutusedit2.jpg" alt="Drehkruez" align="center" style="width:489px;height:369px;padding-top:20px;padding-bottom:50px" >
+</center>
+
+
+
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+</body>
+</html>
